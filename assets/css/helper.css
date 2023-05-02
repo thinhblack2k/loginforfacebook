@@ -1,6 +1,6 @@
 .pd-section {
-    padding-top: calc(40px - var(--gutter));
-    padding-bottom: calc(40px - var(--gutter));
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .object-fit-cover {

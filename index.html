@@ -19,32 +19,38 @@
         </div>
       </div>
     </header>
-    <section class="form-login">
+    <section class="form-login pd-section">
       <div class="container">
-        <p class="form__description">
-          Đăng nhập để sử dụng tài khoản facebook của bạn
-        </p>
         <div class="form">
           <form>
-            <div class="form__input">
+            <p class="form__description">
+              Đăng nhập để sử dụng tài khoản facebook của bạn
+            </p>
+            <div class="form__input d-flex">
               <label class="form__label" for="account-name">Mobile number or email address</label>
               <input
+                class="w-100"
                 type="text"
                 id="account-name"
                 name="name"
                 placeholder="Mobile number or email address"
+                required
               />
             </div>
-            <div class="form__input">
-              <label class="form__label" for="password">Password</label>
+            <div class="form__input d-flex">
+              <label class="form__label d-inline-block" for="password">Password</label>
               <input
+                class="w-100"
                 type="password"
                 id="password"
                 name="password"
                 placeholder="Facebook password"
+                required
               />
             </div>
-            <button type="submit" id="create">Log in</button>
+            <div class="form__input text-center">
+              <button class="btn btn-login" type="submit" id="create">Log in</button>
+            </div>
           </form>
           <div class="list__anchor d-flex flex-column align-center">
             <a href="#" class="form__anchor">Forgotten password?</a>

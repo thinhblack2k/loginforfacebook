@@ -44,11 +44,33 @@ header .icon-facebook {
     margin: 0 auto;
 }
 
+.form__description {
+    margin-bottom: 40px;
+}
+
 .form__label {
     width: 100px;
 }
 
+.form__input {
+    margin-top: 10px;
+}
+
 .form__input input {
     border: 1px solid #dddfe2;
+    height: 24px;
+    padding: 0 10px;
+}
 
+.form__anchor {
+    padding: 10px 0;
+}
+
+.btn-login {
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #365899;
 }
