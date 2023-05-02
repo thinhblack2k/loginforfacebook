@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Facebook</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
-</head>
-<body>
-    <button id="login-button">Login</button>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/helper.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__box d-flex justify-center align-center">
+          <i class="icon-facebook fa-brands fa-square-facebook"></i>
+          <h2>facebook</h2>
+        </div>
+      </div>
+    </header>
+    <section class="form-login">
+      <div class="container">
+        <p class="form__description">
+          Đăng nhập để sử dụng tài khoản facebook của bạn
+        </p>
+        <div class="form">
+          <form>
+            <div class="form__input">
+              <label class="form__label" for="account-name">Mobile number or email address</label>
+              <input
+                type="text"
+                id="account-name"
+                name="name"
+                placeholder="Mobile number or email address"
+              />
+            </div>
+            <div class="form__input">
+              <label class="form__label" for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Facebook password"
+              />
+            </div>
+            <button type="submit" id="create">Log in</button>
+          </form>
+          <div class="list__anchor d-flex flex-column align-center">
+            <a href="#" class="form__anchor">Forgotten password?</a>
+            <a href="#" class="form__anchor">Create account</a>
+            <a href="#" class="form__anchor">Not now</a>
+            <a href="#" class="form__anchor">Help Centre</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/e63ed424f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/jsonserver.js"></script>
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>
