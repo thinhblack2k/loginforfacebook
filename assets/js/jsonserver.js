@@ -42,5 +42,7 @@ function handleCreateForm() {
         }
 
         createAccount(formData);
+
+        alert('Thêm mới thành công');
     }
 }
